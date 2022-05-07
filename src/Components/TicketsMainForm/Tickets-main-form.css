@@ -1,0 +1,32 @@
+
+.tickets-main__form{
+    padding: 0 32px 12px 32px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #DFE0EB;
+}
+.tickets-main__input{
+    border: none;
+    outline:none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #9FA2B4;
+}
+.input1{
+    width: 440px;
+    margin-right: 40px;
+}
+.input2{
+    width: 208px;
+    margin-right: 40px;
+}
+.input3{
+    width: 140px;
+    margin-right: 65px;
+}
+.input4{
+    width: 104px;
+    margin-left: 55px;
+}

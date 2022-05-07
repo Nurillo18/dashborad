@@ -1,0 +1,129 @@
+
+.item{
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #DFE0EB;
+}
+.item-account-left{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+.item-account__content{
+    margin-left: 24px;
+    width: 372px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.item-account__name{
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.item-account__day{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+}
+.item-costumer{
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 208px;
+}
+.costumer-name{
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.costumer-day{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+}
+.item-data{
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 140px;
+}
+.data-may{
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.may-time{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #C5C7CD;
+}
+.hight{
+    border:none;
+    padding: 5px 12px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #F12B2C;
+    border-radius: 100px;
+}
+.normal{
+    border:none;
+    padding: 5px 12px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #29CC97;
+    border-radius: 100px;
+}
+.low{
+    border:none;
+    padding: 5px 12px;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #FEC400;
+    border-radius: 100px;
+}
+.last-btn-and-img{
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

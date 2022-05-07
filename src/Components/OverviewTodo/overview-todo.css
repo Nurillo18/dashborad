@@ -1,0 +1,115 @@
+
+.overview-todo{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #fff;
+    border: 2px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+.overview-todo__todays{
+    padding: 32px;
+    width: 780px;
+}
+
+.overview-todo__todays-top{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.overview-todo__todays-content-left{
+    display: flex;
+    flex-direction: column;
+}
+.overview-todo__title{
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: #252733;
+}
+.overview-todo__data{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
+.overview-todo__todays-content-right{
+    display: flex;
+}
+.overview-todo__today{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
+.overview-todo__today::before{
+    content: '';
+    margin-right:8px;
+    display: block;
+    width: 16px;
+    height: 2px;
+    border-radius: 12px;
+    background-color: #3751FF;
+}
+.overview-todo__yesterday::before{
+    content: '';
+    margin-right:8px;
+    margin-left: 32px;
+    display: block;
+    width: 16px;
+    height: 2px;
+    border-radius: 12px;
+    background-color: #DFE0EB;
+}
+.overview-todo__yesterday{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1px;
+    color: #9FA2B4;
+}
+
+.overview-todo__count-box{
+    width:calc(37% - 35px) ;
+    border-left: 2px solid #DFE0EB;
+}
+.overview-todo__count{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid #DFE0EB;
+    padding: 26px;
+}
+.overview-todo__count:last-child{
+    border: none;
+    padding-bottom: 30px;
+}
+.overview-todo__count:first-child{
+    padding: 30px;
+}
+.overview-todo__text{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+    margin-bottom: 8px;
+}
+.overview-todo__number{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #252733;
+}

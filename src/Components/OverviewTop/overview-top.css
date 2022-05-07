@@ -1,0 +1,45 @@
+
+.overview-top{
+    padding-top: 30px;
+    padding-bottom: 58px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.overview-top__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.3px;
+    color: #252733;
+}
+
+.overview-top__left-account{
+    display: flex;
+    align-items: center;
+}
+.overview-top__lupe{
+    display: block;
+    margin-right: 25px;
+}
+.overview-top__notif{
+    margin-right: 33px;
+}
+.overview-top__line{
+    display: flex;
+    height: 32px;
+    width: 2px;
+    background-color: #DFE0EB;
+    margin-right: 32px;
+}
+.overview-top__name{
+    margin-right: 14px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color: #252733;
+}

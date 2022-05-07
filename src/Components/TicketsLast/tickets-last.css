@@ -1,0 +1,55 @@
+
+.tickets-main-last-box{
+    padding: 27px 0;
+    width: 55vh;
+    margin-left:auto;
+    display: flex;
+}
+.first{
+    display: flex;
+}
+.text{
+    margin-right: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+}
+.num{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.3px;
+    color: #4B506D;
+
+}
+.num::after{
+    margin-left: 5px;
+    display: block;
+    content: '';
+    background-image: url("../../Assets//Images/down.svg");
+    background-repeat: no-repeat;
+    width: 7px;
+    height: 4px;
+
+}
+.secound{
+    margin-left: 50px;
+    margin-right: 33px;
+    width: 100px;
+}
+.big-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.3px;
+    color: #9FA2B4;
+}
+.left{
+    margin-right: 30px;
+}
